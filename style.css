@@ -1,0 +1,116 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Cor de fundo suave */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #006400; /* Verde escuro */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Amarelo ao passar o mouse */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Estilos das seções */
+section {
+    margin-bottom: 30px;
+    background: #ffffff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Efeito de transição */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Eleva a seção ao passar o mouse */
+}
+
+h2 {
+    color: #006400; /* Verde escuro */
+    border-bottom: 2px solid #ffcc00; /* Linha de destaque */
+    padding-bottom: 10px;
+}
+
+/* Estilo das imagens */
+.imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #006400; /* Verde escuro */
+    color: #ffffff;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #006400; /* Verde escuro */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.img1 {
+    width: 30%;
+}
+
+.img2{
+    width: 30%;
+}
+
+.img4{
+    width: 40%;
+}
